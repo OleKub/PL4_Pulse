@@ -1,0 +1,41 @@
+@media (max-width:1200px) {
+    .footer {
+        &__info {
+            position: absolute;
+            left: 60%;
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            width: 360px;
+        }
+        &__icon {
+            font-size: 13px;
+        }
+        &__link {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .consultation {
+        .title_left {
+            font-size: 25px;
+        }
+    }
+
+}
