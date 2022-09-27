@@ -81,7 +81,7 @@ $(document).ready(function(){
     validateForms('#consultation form');
     validateForms('#order form');
 
-    $('input[name=phone]').mask("+38(044) 222-22-22");
+    $('input[name=phone]').mask("+38 (999) 999-99-99");
 
     $('form').submit(function(e) {
         e.preventDefault();
