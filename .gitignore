@@ -2,8 +2,7 @@
 
 # dependencies
 /node_modules
-
-/phpmailer
+/mailer/phpmailer
 
 # testing
 /coverage
